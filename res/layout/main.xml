@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:padding="10dip">
+
+	<AutoCompleteTextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/main_entry_fld"
+		android:singleLine="true" android:hint="@string/main_entry_hint_txt"></AutoCompleteTextView>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="right">
+
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/main_spell_btn"
+			android:text="@string/main_spell_btn_txt" android:minEms="8"></Button>
+	</LinearLayout>
+
+	<TextView android:id="@+id/main_result_fld"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:gravity="center_horizontal|center_vertical" android:height="136dip"
+		android:text="@string/sample_txt" android:textSize="36dip"></TextView>
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center"
+		android:id="@+id/main_tap_lbl"></TextView>
+</LinearLayout>
