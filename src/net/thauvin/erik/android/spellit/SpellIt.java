@@ -396,7 +396,7 @@ public class SpellIt extends Activity
 		{
 			final char c = getEntry().charAt(getCurrentChar());
 
-			if ((c < 123) && (c > 96))
+			if ((c < 123) && (c > 96) || (c < 91) && (c > 64))
 			{
 				int offset = 97;
 
@@ -406,7 +406,7 @@ public class SpellIt extends Activity
 				}
 
 				view.setText(String.valueOf(c).toUpperCase() + ' ' + getString(R.string.as_in_txt) + ' ' + getAlphabet(c - offset));
-			}
+			}		
 			else if ((c < 58) && (c > 47))
 			{
 				view.setText(getAlphabet(c - 22));
