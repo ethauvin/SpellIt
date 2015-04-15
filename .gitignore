@@ -1,5 +1,9 @@
-/.svn/
-/bin/
-/.classpath
-/.pmd
-/.project
+.DS_Store
+.gradle
+/.idea/libraries
+/.idea/workspace.xml
+/build
+/captures
+/local.properties
+/versions.properties
+Thumbs.db

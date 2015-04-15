@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpellIt</string>
+    <string name="main_spell_btn_txt">Spell It!</string>
+    <string name="main_tap_lbl_txt">Tap to continue&#8230;</string>
+    <string name="main_tap_lbl_repeat_txt">Tap to repeat&#8230;</string>
+    <string name="main_entry_hint_txt">Start typing for history&#8230;</string>
+    <string name="main_entry_err_txt">Please type something&#8230;</string>
+    <string name="nato_menu_txt">NATO Phonetic</string>
+    <string name="sample_txt">G as in Google</string>
+    <string name="about_txt">© 2008&#8211;12 Erik C. Thauvin\nAll Rights Reserved\n\nerik@thauvin.net\nhttp://m.thauvin.net/android/</string>
+    <string name="about_menu_txt">About</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="as_in_txt">as in</string>
+    <string name="space_txt">&lt;space></string>
+    <string name="done_txt">&lt;done></string>
+
+</resources>
